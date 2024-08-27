@@ -54,7 +54,7 @@ app.post('/send-bulk-email', upload.single('file'), (req, res) => {
 
             for (const destination of destinations) {
                 const params = {
-                    Source: "to@akssh.xyz",
+                    Source: "no-reply@akssh.xyz",
                     Destination: destination,
                     Message: {
                         Subject: {

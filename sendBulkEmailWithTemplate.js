@@ -56,7 +56,7 @@ app.post('/send-bulk-email', upload.single('file'), (req, res) => {
             const params = {
                 Destinations: destinations,
                 Source: "codeguyakash@akssh.xyz",
-                Template: "MyTemplate",
+                Template: "ThankYouTemplate",
                 DefaultTemplateData: '{"name":"Customer"}',
                 ReplyToAddresses: ["codeguyakash@akssh.xyz"],
             };

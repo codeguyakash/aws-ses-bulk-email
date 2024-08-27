@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node --env-file=.env sendBulkEmailWithTemplate.js",
-    "send": "node --env-file=.env sendBulkEmailWithTemplate.js",
+    "send": "node --env-file=.env sendWithoutTemplate.js",
     "temp": "node --env-file=.env generateTemplate.js"
   },
   "keywords": [],
