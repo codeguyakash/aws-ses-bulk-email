@@ -1,0 +1,23 @@
+{
+  "name": "bulk-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env sendBulkEmailWithTemplate.js",
+    "send": "node --env-file=.env sendBulkEmailWithTemplate.js",
+    "temp": "node --env-file=.env generateTemplate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.637.0",
+    "aws-sdk": "^2.1682.0",
+    "body-parser": "^1.20.2",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
