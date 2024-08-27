@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file=.env sendBulkEmailWithTemplate.js",
-    "send": "node --env-file=.env sendWithoutTemplate.js",
-    "temp": "node --env-file=.env generateTemplate.js"
+    "start": "node --env-file=.env index",
+    "dev": "nodemon --env-file=.env index.js"
   },
   "keywords": [],
   "author": "",
