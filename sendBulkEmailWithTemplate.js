@@ -77,5 +77,5 @@ app.post('/send-bulk-email', upload.single('file'), (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Running on http://localhost:${PORT}`);
 });
