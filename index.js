@@ -15,3 +15,8 @@ app.use('/api/emails', emailRoutes);
 app.listen(PORT, () => {
     console.log(`Running on http://localhost:${PORT}`);
 });
+
+
+//POST: /api/emails/without-template
+//POST: /api/emails/with-template
+//GET: /api/emails/generate-template
